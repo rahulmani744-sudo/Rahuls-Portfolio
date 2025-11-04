@@ -1,17 +1,20 @@
-rahul-portfolio/
-├─ public/
-│ ├─ avatar-placeholder.png # replace with your headshot
-│ └─ projects/ # add project images here
-├─ pages/
-│ ├─ _app.js
-│ └─ index.js
-├─ components/
-│ ├─ Header.js
-│ ├─ Footer.js
-│ └─ ProjectCard.js
-├─ styles/
-│ └─ globals.css
-├─ package.json
-├─ tailwind.config.js
-├─ postcss.config.js
-└─ README.md
+{
+"name": "rahul-portfolio",
+"version": "1.0.0",
+"private": true,
+"scripts": {
+"dev": "next dev",
+"build": "next build",
+"start": "next start"
+},
+"dependencies": {
+"next": "14.0.0",
+"react": "18.2.0",
+"react-dom": "18.2.0"
+},
+"devDependencies": {
+"autoprefixer": "10.4.14",
+"postcss": "8.4.23",
+"tailwindcss": "4.0.0"
+}
+}
